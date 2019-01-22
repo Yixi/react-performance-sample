@@ -1,0 +1,14 @@
+.bind-page {
+  display: flex;
+}
+
+.bind-page-list {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.bind-page-list .item {
+  background: #eeeeee;
+  margin: 5px 0;
+  padding: 20px;
+}
