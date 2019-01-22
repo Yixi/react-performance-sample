@@ -1,2 +1,12 @@
 .key-page {
 }
+
+
+.key-page .item {
+  width: 200px;
+  text-align: center;
+  margin: 5px auto;
+  height: 30px;
+  line-height: 30px;
+  background: #eeeeee;
+}
