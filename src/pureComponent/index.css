@@ -1,0 +1,12 @@
+.pure-page {
+
+}
+
+.pure-page .item {
+  width: 200px;
+  text-align: center;
+  margin: 5px auto;
+  padding: 3px 0;
+  line-height: 21px;
+  background: #eeeeee;
+}

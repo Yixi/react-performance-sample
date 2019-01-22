@@ -3,7 +3,7 @@ import "./index.css"
 
 class Item extends React.PureComponent {
   render() {
-    console.log('render ', this.props.name)
+    console.log('render ', this.props.name);
     return (
       <div className="item">{this.props.name}</div>
     );
