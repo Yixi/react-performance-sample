@@ -27,13 +27,13 @@ export default class Key extends React.PureComponent {
 
   onUnshift = () => {
     let list = [...this.state.list];
-    list.unshift('emberjs');
+    list.unshift(`emberJs ${Date.parse(new Date())}`);
     this.setState({list})
   };
 
   onPush = () => {
     let list = [...this.state.list];
-    list.push('emberjs');
+    list.push(`emberJs ${Date.parse(new Date())}`);
     this.setState({list})
   };
 
